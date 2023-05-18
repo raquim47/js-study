@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/app.css" />
+    <!-- 스크립트가 먼저 실행되어 브라우저가 HTML 코드를 렌더링하는 것을 방해하지 않기 위해 자바스크립트 코드는 body의 최하단에 위치 -->
+<!-- 그러나 스크립트를 먼저 '로드'하고 HTML 코드 렌더링 후에 실행하도록 하는 방법도 있다. -->
+<script src="./assets/scripts/vendor.js" defer></script>
+<script src="./assets/scripts/app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>The Unconventional Calculator</h1>
+    </header>
+    
+    <section id="calculator">
+      <input type="number" id="input-number" />
+      <div id="calc-actions">
+        <button type="button" id="btn-add">+</button>
+        <button type="button" id="btn-subtract">-</button>
+        <button type="button" id="btn-multiply">*</button>
+        <button type="button" id="btn-divide">/</button>
+      </div>
+    </section>
+    <section id="results">
+      <h2 id="current-calculation">0</h2>
+      <h2>Result: <span id="current-result">0</span></h2>
+    </section>
+
+  </body>
+</html>
