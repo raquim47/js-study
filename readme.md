@@ -13,6 +13,14 @@ https://velog.io/@raquim47/JS-FINAL-2
 함수
 https://velog.io/@raquim47/JS-FINAL-3
 
-## 3. favoriteMovie 
+## 4. favoriteMovie 
 DOM
 https://velog.io/@raquim47/JS-FINAL-4
+
+## 5. 배열
+배열
+https://velog.io/@raquim47/JS-FINAL-5
+
+## 5. favoriteMovie 2
+객체
+https://velog.io/@raquim47/JS-FINAL-6
