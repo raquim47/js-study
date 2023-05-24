@@ -21,6 +21,7 @@ https://velog.io/@raquim47/JS-FINAL-4
 배열
 https://velog.io/@raquim47/JS-FINAL-5
 
-## 5. favoriteMovie 2
+## 6. favoriteMovie 2
 객체
 https://velog.io/@raquim47/JS-FINAL-6
+
